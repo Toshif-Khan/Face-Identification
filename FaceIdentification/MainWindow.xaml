@@ -1,0 +1,15 @@
+﻿<Window x:Class="FaceIdentification.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FaceIdentification"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <Image x:Name="captureImage" HorizontalAlignment="Left" Height="150" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" Visibility="Visible"/>
+        <Button x:Name="faceIdentifyBtn" Content="Identify" HorizontalAlignment="Left" Margin="128,236,0,0" VerticalAlignment="Top" Width="115" Click="faceIdentifyBtn_Click"/>
+        <Image x:Name="testImage" HorizontalAlignment="Left" Height="66" Margin="128,94,0,0" VerticalAlignment="Top" Width="82"/>
+
+    </Grid>
+</Window>
